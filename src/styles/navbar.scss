@@ -1,0 +1,34 @@
+.switch__mode {
+  font-weight: 700;
+  color: hsl(228, 34%, 66%);
+}
+.navbar__textbox {
+  padding-block: 1.5rem;
+}
+.navbar__stats {
+  font-weight: 700;
+  padding-top: 0.25rem;
+  color: hsl(228, 34%, 66%);
+}
+.navbar__title {
+  white-space: nowrap;
+}
+@media screen and (max-width: 1150px) {
+  .switch__wrapper {
+    border-top: 1px solid hsl(228, 34%, 66%);
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .switch__wrapper {
+    display: flex;
+    gap: 0.25rem;
+  }
+}

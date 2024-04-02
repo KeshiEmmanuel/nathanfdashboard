@@ -1,0 +1,26 @@
+.container,
+.containerDark {
+  max-width: 1150px;
+
+  margin-inline: auto;
+}
+
+.containerDark,
+.wrapperDark {
+  background-color: hsl(230, 17%, 14%);
+  color: hsl(0, 0%, 100%);
+  min-height: 100vh;
+}
+.container,
+.wrapper {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(230, 17%, 14%);
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1150px) {
+  .container,
+  .containerDark {
+    margin-inline: 1.5rem;
+  }
+}

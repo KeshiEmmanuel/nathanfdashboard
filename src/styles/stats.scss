@@ -1,0 +1,72 @@
+.stat-grid {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+  place-content: center;
+  grid-template-columns: 270px;
+}
+@media screen and (min-width: 576px) {
+  .stat-grid {
+    grid-template-columns: 380px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .stat-grid {
+    grid-template-columns: repeat(2, 350px);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .stat-grid {
+    grid-template-columns: repeat(2, 350px);
+  }
+}
+@media screen and (min-width: 1150px) {
+  .stat-grid {
+    grid-template-columns: repeat(4, 270px);
+  }
+}
+.stat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(228, 28%, 20%);
+  justify-content: center;
+  padding-block: 2rem;
+  border-radius: 6px;
+}
+.statLight {
+  background-color: hsl(227, 47%, 96%);
+}
+.stats__user {
+  display: flex;
+  align-items: center;
+  color: hsl(228, 34%, 66%);
+  font-weight: 700;
+  font-size: 13px;
+  gap: 0.25rem;
+}
+.stat__follower {
+  font-size: 60px;
+}
+.stats__followers {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  color: hsl(228, 34%, 66%);
+  text-transform: uppercase;
+}
+.stat__stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.stat__dailystats {
+  font-weight: 700;
+}
+.stat_growth {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  margin-block: 0.5rem;
+  padding-block: 0.5rem;
+}
